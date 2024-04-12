@@ -2,7 +2,6 @@ class Solution:
     def trap(self, height: List[int]) -> int:
         left, right = 0, len(height) - 1
         left_max = right_max = water_trapped = 0
-        
         while left < right:
             if height[left] <= height[right]:
                 if height[left] < left_max:
