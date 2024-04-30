@@ -1,4 +1,4 @@
-class Solution {
+class Solution{
   public String smallestFromLeaf(TreeNode root) {
     dfs(root, new StringBuilder());
     return ans;
