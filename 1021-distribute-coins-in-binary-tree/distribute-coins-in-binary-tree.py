@@ -1,7 +1,6 @@
 class Solution:
     def distributeCoins(self, root: Optional[TreeNode]) -> int:
         self.moves = 0
-
         def dfs(current):
             if current == None: return 0
 
