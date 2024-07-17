@@ -13,10 +13,10 @@ class Solution:
         while(fast and fast.next):
             slow=slow.next
             fast=fast.next.next
-        curr=slow
-        prev=None
+        curr=slow ##my mid is computed and made it curr
         
         ##write the logic for reverse
+        prev=None
         nxt=None
         while curr:
             nxt=curr.next
