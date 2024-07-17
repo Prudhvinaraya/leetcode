@@ -15,6 +15,7 @@ class Solution:
 #                 return curr_node
 #             dict[curr_node]=True
 #             curr_node=curr_node.next
+
         ##optimal
         #1)Detect the loop using tortoise and hare method
         slow=head
