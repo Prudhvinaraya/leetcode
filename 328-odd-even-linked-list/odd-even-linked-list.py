@@ -21,11 +21,6 @@ class Solution:
             
         odd.next=evenhead
         return head
-            
-            
-        
-        
-        
         
         # ##BRUTE FORCE
         # if not head or not head.next:  #->Base case
